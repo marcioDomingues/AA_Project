@@ -1,0 +1,289 @@
+# using clean_data
+##########################################################################################################
+
+trunc(length(index_)/ 3
+
+hidden: 0    thresh: 0.1    rep: 1/1    steps:       3	error: 4384      	time: 0.01 secs
+Percent errors: 30.300000
+
+hidden: 8    thresh: 0.1    rep: 1/1    steps:     571	error: 2547.31715	time: 6.36 secs
+Percent errors: 21.210000
+
+hidden: 12    thresh: 0.1    rep: 1/1    steps:    5487	error: 2521.00775	time: 1.71 mins
+Percent errors: 21.210000
+hidden: 12    thresh: 0.1    rep: 1/1    steps:    3987	error: 2505.37215	time: 1.33 mins
+Percent errors: 24.240000
+
+hidden: 2, 4    thresh: 0.1    rep: 1/1    steps:    2113	error: 2577.90359	time: 23.83 secs
+Percent errors: 21.210000
+
+hidden: 12, 4    thresh: 0.1    rep: 1/1    steps:   10453	error: 2486.98121	time: 3.61 mins
+Percent errors: 30.300000
+hidden: 12, 4    thresh: 0.1    rep: 1/1    steps:    9682	error: 2510.07083	time: 4.36 mins
+Percent errors: 24.240000
+
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:      53	error: 2581.47781	time: 1 secs
+Percent errors: 15.150000
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:     231	error: 2532.10654	time: 4.86 secs
+Percent errors: 30.300000
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:     231	error: 2580.92525	time: 4.78 secs
+Percent errors: 21.210000
+
+hidden: 7, 4, 3    thresh: 0.1    rep: 1/1    steps:   37056	error: 2549.54692	time: 13.64 mins
+Percent errors: 27.270000
+
+##########################################################################################################
+
+trunc(length(index_)/ 3
+
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:     138	error: 1684.63043	time: 1.91 secs
+Percent errors: 22.840000
+
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:     136	error: 1700.12408	time: 1.94 secs
+Percent errors: 22.200000
+
+##########################################################################################################
+
+trunc(length(index_)/ 3
+
+hidden: 12, 4    thresh: 0.1    rep: 1/1    steps:   21913	error: 1685.67699	time: 5.79 mins
+Percent errors: 22.050000
+
+hidden: 10    thresh: 0.1    rep: 1/1    steps:     922	error: 1675.95316	time: 8.54 secs
+Percent errors: 22.390000
+
+hidden: 10, 5    thresh: 0.1    rep: 1/1    steps:    8334	error: 1698.66369	time: 2.07 mins
+Percent errors: 21.840000
+
+hidden: 12    thresh: 0.1    rep: 1/1    steps:    2208	error: 1672.81833	time: 22.63 secs
+Percent errors: 21.990000
+
+
+# using normalized_data
+##########################################################################################################
+
+trunc(length(index_)/ 3
+
+hidden: 12    thresh: 0.1    rep: 1/1    steps:   22776	error: 1294.57445	time: 4.49 mins
+Percent errors: 18.390000
+
+hidden: 12    thresh: 0.1    rep: 1/1    steps:   29467	error: 1275.18961	time: 5.62 mins
+Percent errors: 18.850000
+
+##########################################################################################################
+
+trunc(length(index_)/ 3
+
+hidden: 0    thresh: 0.1    rep: 1/1    steps:       2	error: 3491.5    	time: 0.01 secs
+Percent errors: 36.360000
+
+hidden: 8    thresh: 0.1    rep: 1/1    steps:   17719	error: 2548.95643	time: 3.21 mins
+Percent errors: 33.330000
+
+hidden: 12    thresh: 0.1    rep: 1/1    steps:    1195	error: 2510.83407	time: 16.69 secs
+Percent errors: 33.330000
+hidden: 12    thresh: 0.1    rep: 1/1    steps:    9352	error: 2569.96005	time: 2.25 mins
+Percent errors: 18.180000
+
+hidden: 2, 4    thresh: 0.1    rep: 1/1    steps:      41	error: 2579.84088	time: 0.57 secs
+Percent errors: 33.330000
+
+hidden: 12, 4    thresh: 0.1    rep: 1/1    steps:   18856	error: 2468.00074	time: 8.31 mins
+Percent errors: 24.240000
+hidden: 12, 4    thresh: 0.1    rep: 1/1    steps:    7188	error: 2519.12582	time: 2.81 mins
+Percent errors: 24.240000
+
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:     222	error: na  time: na
+Percent errors: 18.180000
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:     222	error: 2522.40413	time: 4.58 secs
+Percent errors: 27.270000
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:     103	error: 2555.63419	time: 1.97 secs
+Percent errors: 24.240000
+
+hidden: 7, 4, 3    thresh: 0.1    rep: 1/1    steps:    8746	error: 2532.17478	time: 3.21 mins
+Percent errors: 30.300000
+
+
+#variation of multiple parameters
+##########################################################################################################
+
+trunc(length(index_)/ 3
+
+hidden: 0    thresh: 0.1    rep: 1/1    steps:       1	error: 10206.5    	time: 0.01 secs
+Percent errors: 77.860000
+hidden: 0    thresh: 0.25    rep: 1/1    steps:       5	error: 3134.5    	time: 0.01 secs
+Percent errors: 24.480000
+hidden: 0    thresh: 0.4    rep: 1/1    steps:       1	error: 3254      	time: 0 secs
+Percent errors: 22.320000
+hidden: 0    thresh: 0.6    rep: 1/1    steps:       2	error: 10259      	time: 0.01 secs
+Percent errors: 77.950000
+hidden: 0    thresh: 0.7    rep: 1/1    steps:       4	error: 3030.5    	time: 0.01 secs
+Percent errors: 22.500000
+hidden: 0    thresh: 0.9    rep: 1/1    steps:       4	error: 2964.5    	time: 0.01 secs
+Percent errors: 21.840000
+hidden: 8    thresh: 0.1    rep: 1/1    steps:    1248	error: 2234.07214	time: 11.42 secs
+Percent errors: 21.630000
+hidden: 8    thresh: 0.25    rep: 1/1    steps:     475	error: 2272.20272	time: 4.4 secs
+Percent errors: 21.630000
+hidden: 8    thresh: 0.4    rep: 1/1    steps:     294	error: 2268.26087	time: 2.65 secs
+Percent errors: 21.630000
+hidden: 8    thresh: 0.6    rep: 1/1    steps:     101	error: 2289.75086	time: 0.94 secs
+Percent errors: 21.630000
+hidden: 8    thresh: 0.7    rep: 1/1    steps:     355	error: 2238.99485	time: 3.27 secs
+Percent errors: 21.630000
+hidden: 8    thresh: 0.9    rep: 1/1    steps:     584	error: 2268.73195	time: 5.23 secs
+Percent errors: 21.630000
+hidden: 12    thresh: 0.1    rep: 1/1    steps:     864	error: 2223.11111	time: 10.87 secs
+Percent errors: 21.630000
+hidden: 12    thresh: 0.25    rep: 1/1    steps:     468	error: 2241.51936	time: 5.71 secs
+Percent errors: 21.630000
+hidden: 12    thresh: 0.4    rep: 1/1    steps:    1740	error: 2259.46193	time: 21.81 secs
+Percent errors: 21.630000
+hidden: 12    thresh: 0.6    rep: 1/1    steps:    3086	error: 2248.4389 	time: 38.24 secs
+Percent errors: 21.600000
+hidden: 12    thresh: 0.7    rep: 1/1    steps:    1742	error: 2261.59157	time: 21.57 secs
+Percent errors: 21.600000
+hidden: 12    thresh: 0.9    rep: 1/1    steps:     288	error: 2241.52709	time: 3.47 secs
+Percent errors: 21.630000
+hidden: 6, 4    thresh: 0.1    rep: 1/1    steps:    4939	error: 2252.3275 	time: 1.04 mins
+Percent errors: 21.630000
+hidden: 6, 4    thresh: 0.25    rep: 1/1    steps:     153	error: 2263.38676	time: 1.98 secs
+Percent errors: 21.630000
+hidden: 6, 4    thresh: 0.4    rep: 1/1    steps:    6834	error: 2243.07992	time: 1.54 mins
+Percent errors: 21.630000
+hidden: 6, 4    thresh: 0.6    rep: 1/1    steps:     288	error: 2262.14556	time: 3.87 secs
+Percent errors: 21.630000
+hidden: 6, 4    thresh: 0.7    rep: 1/1    steps:     649	error: 2264.72839	time: 8.81 secs
+Percent errors: 21.630000
+hidden: 6, 4    thresh: 0.9    rep: 1/1    steps:      47	error: 2287.59512	time: 0.63 secs
+Percent errors: 21.600000
+hidden: 12, 6    thresh: 0.1    rep: 1/1    steps: stepmax	min thresh: 0.1034495624
+Error in data.frame(actual = traindata_$Y, predicted = nn$net.result) : 
+  arguments imply differing number of rows: 26667, 0
+In addition: Warning message:
+algorithm did not converge in 1 of 1 repetition(s) within the stepmax 
+
+
+##########################################################################################################
+
+trunc(length(index_)/ 2
+
+hidden: 0    thresh: 0.1    rep: 1/1    steps:       1	error: 2760.5    	time: 0 secs
+Percent errors: 22.740000
+hidden: 0    thresh: 0.25    rep: 1/1    steps:       1	error: 9749      	time: 0 secs
+Percent errors: 77.320000
+hidden: 0    thresh: 0.4    rep: 1/1    steps:       1	error: 9169      	time: 0 secs
+Percent errors: 71.200000
+hidden: 0    thresh: 0.6    rep: 1/1    steps:       2	error: 3171.5    	time: 0 secs
+Percent errors: 26.620000
+hidden: 0    thresh: 0.7    rep: 1/1    steps:       2	error: 2979.5    	time: 0.01 secs
+Percent errors: 25.820000
+hidden: 0    thresh: 0.9    rep: 1/1    steps:      14	error: 3065.5    	time: 0.03 secs
+Percent errors: 24.420000
+hidden: 8    thresh: 0.1    rep: 1/1    steps:    2539	error: 2142.26451	time: 23.88 secs
+Percent errors: 22.660000
+hidden: 8    thresh: 0.25    rep: 1/1    steps:     396	error: 2108.38775	time: 3.78 secs
+Percent errors: 22.680000
+hidden: 8    thresh: 0.4    rep: 1/1    steps:     870	error: 2106.27892	time: 8.16 secs
+Percent errors: 22.680000
+hidden: 8    thresh: 0.6    rep: 1/1    steps:    1894	error: 2121.24931	time: 17.79 secs
+Percent errors: 22.680000
+hidden: 8    thresh: 0.7    rep: 1/1    steps:     307	error: 2094.42094	time: 2.84 secs
+Percent errors: 22.640000
+hidden: 8    thresh: 0.9    rep: 1/1    steps:     100	error: 2136.24957	time: 0.92 secs
+Percent errors: 22.680000
+hidden: 12    thresh: 0.1    rep: 1/1    steps:    3692	error: 2090.46552	time: 45.01 secs
+Percent errors: 22.660000
+hidden: 12    thresh: 0.25    rep: 1/1    steps:     739	error: 2057.05406	time: 9.42 secs
+Percent errors: 22.680000
+hidden: 12    thresh: 0.4    rep: 1/1    steps:     308	error: 2055.41186	time: 3.85 secs
+Percent errors: 22.720000
+hidden: 12    thresh: 0.6    rep: 1/1    steps:     526	error: 2110.24311	time: 6.37 secs
+Percent errors: 22.720000
+hidden: 12    thresh: 0.7    rep: 1/1    steps:     543	error: 2070.64539	time: 6.56 secs
+Percent errors: 22.680000
+hidden: 12    thresh: 0.9    rep: 1/1    steps:     488	error: 2106.35091	time: 5.92 secs
+Percent errors: 22.680000
+hidden: 6, 4    thresh: 0.1    rep: 1/1    steps:   11799	error: 2099.41669	time: 2.58 mins
+Percent errors: 22.720000
+hidden: 6, 4    thresh: 0.25    rep: 1/1    steps:   10185	error: 2105.59346	time: 2.23 mins
+Percent errors: 22.680000
+hidden: 6, 4    thresh: 0.4    rep: 1/1    steps:     135	error: 2129.73108	time: 1.76 secs
+Percent errors: 22.680000
+hidden: 6, 4    thresh: 0.6    rep: 1/1    steps:      55	error: 2141.84005	time: 0.74 secs
+Percent errors: 22.680000
+hidden: 6, 4    thresh: 0.7    rep: 1/1    steps:      76	error: 2086.07822	time: 0.98 secs
+Percent errors: 22.680000
+hidden: 6, 4    thresh: 0.9    rep: 1/1    steps:      75	error: 2093.48805	time: 1.06 secs
+Percent errors: 22.680000
+hidden: 12, 6    thresh: 0.1    rep: 1/1    steps:   13587	error: 2072.52551	time: 4.27 mins
+Percent errors: 22.760000
+hidden: 12, 6    thresh: 0.25    rep: 1/1    steps:   17090	error: 2082.93622	time: 5.26 mins
+Percent errors: 22.660000
+hidden: 12, 6    thresh: 0.4    rep: 1/1    steps:     871	error: 2082.70654	time: 16.29 secs
+Percent errors: 22.740000
+hidden: 12, 6    thresh: 0.6    rep: 1/1    steps:   15502	error: 2080.05736	time: 4.84 mins
+Percent errors: 22.720000
+hidden: 12, 6    thresh: 0.7    rep: 1/1    steps:    4198	error: 2091.98076	time: 1.32 mins
+Percent errors: 22.660000
+hidden: 12, 6    thresh: 0.9    rep: 1/1    steps:     516	error: 2052.00521	time: 9.73 secs
+Percent errors: 22.680000
+hidden: 16, 10    thresh: 0.1    rep: 1/1    steps:   43384	error: 2083.67824	time: 18.17 mins
+Percent errors: 22.900000
+hidden: 16, 10    thresh: 0.25    rep: 1/1    steps:   16210	error: 2103.3279 	time: 6.79 mins
+Percent errors: 22.820000
+hidden: 16, 10    thresh: 0.4    rep: 1/1    steps:    6913	error: 2052.63804	time: 2.95 mins
+Percent errors: 22.820000
+hidden: 16, 10    thresh: 0.6    rep: 1/1    steps:    6637	error: 2038.4803 	time: 2.8 mins
+Percent errors: 22.760000
+hidden: 16, 10    thresh: 0.7    rep: 1/1    steps:    1867	error: 2076.32985	time: 46.57 secs
+Percent errors: 22.740000
+hidden: 16, 10    thresh: 0.9    rep: 1/1    steps:     181	error: 2093.8161 	time: 4.49 secs
+Percent errors: 22.700000
+hidden: 3, 6, 3    thresh: 0.1    rep: 1/1    steps:    4750	error: 2080.34423	time: 1.32 mins
+Percent errors: 22.700000
+hidden: 3, 6, 3    thresh: 0.25    rep: 1/1    steps:      79	error: 2124.9117 	time: 1.31 secs
+Percent errors: 22.680000
+hidden: 3, 6, 3    thresh: 0.4    rep: 1/1    steps:      39	error: 2134.92102	time: 0.63 secs
+Percent errors: 22.680000
+hidden: 3, 6, 3    thresh: 0.6    rep: 1/1    steps:      94	error: 2136.47964	time: 1.62 secs
+Percent errors: 22.680000
+hidden: 3, 6, 3    thresh: 0.7    rep: 1/1    steps:      33	error: 2145.06417	time: 0.56 secs
+Percent errors: 22.680000
+hidden: 3, 6, 3    thresh: 0.9    rep: 1/1    steps:      64	error: 2137.16267	time: 1.09 secs
+Percent errors: 22.680000
+hidden: 7, 4, 3    thresh: 0.1    rep: 1/1    steps:    1089	error: 2097.69404	time: 19.75 secs
+Percent errors: 22.720000
+hidden: 7, 4, 3    thresh: 0.25    rep: 1/1    steps:     841	error: 2094.78586	time: 15.53 secs
+Percent errors: 22.680000
+hidden: 7, 4, 3    thresh: 0.4    rep: 1/1    steps:      96	error: 2088.96969	time: 1.73 secs
+Percent errors: 22.680000
+hidden: 7, 4, 3    thresh: 0.6    rep: 1/1    steps:      77	error: 2097.67687	time: 1.39 secs
+Percent errors: 22.700000
+hidden: 7, 4, 3    thresh: 0.7    rep: 1/1    steps:     585	error: 2081.63417	time: 10.73 secs
+Percent errors: 22.680000
+hidden: 7, 4, 3    thresh: 0.9    rep: 1/1    steps:     184	error: 2094.58771	time: 3.37 secs
+Percent errors: 22.680000
+hidden: 10, 5, 3    thresh: 0.1    rep: 1/1    steps: stepmax	min thresh: 0.1243019372
+Error in data.frame(actual = traindata_$Y, predicted = nn$net.result) : 
+  arguments imply differing number of rows: 25000, 0
+In addition: Warning message:
+algorithm did not converge in 1 of 1 repetition(s) within the stepmax 
+
+##########################################################################################################
+
+trunc(length(index_)/ 3
+
+hidden: 16, 10    thresh: 0.1    rep: 1/1    steps:   31790	error: 2259.88274	time: 13.68 mins
+Percent errors: 21.960000
+hidden: 16, 10    thresh: 0.25    rep: 1/1    steps:   19992	error: 2190.35696	time: 8.63 mins
+Percent errors: 22.170000
+hidden: 16, 10    thresh: 0.4    rep: 1/1    steps:   14051	error: 2245.14058	time: 6.4 mins
+Percent errors: 21.960000
+hidden: 16, 10    thresh: 0.6    rep: 1/1    steps: stepmax	min thresh: 0.6887173011
+Error in data.frame(actual = traindata_$Y, predicted = nn$net.result) : 
+  arguments imply differing number of rows: 26667, 0
+In addition: Warning message:
+algorithm did not converge in 1 of 1 repetition(s) within the stepmax 
+
+##########################################################################################################
